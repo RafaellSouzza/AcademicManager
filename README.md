@@ -67,12 +67,11 @@ A API Academic Manager foi desenvolvida usando Spring Boot, Hibernate e banco de
       ```
 
 - **Alocar Aluno em Disciplina**
-    - **POST** `/disciplinas/{disciplinaId}/alocarAluno`
+    - **POST** `/disciplinas/{disciplinaId}/alocarAluno/{alunoId}`
     - Request:
-      ```json
-      {
+      ```
+       "disciplinaId": "0ba06567-e1bc-4441-b01a-f93ef0cee295",
         "alunoId": "3805f540-64cd-4c15-9f2f-17e4c9ad2f20"
-      }
       ```
 
 #### Notas
