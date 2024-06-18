@@ -98,5 +98,5 @@ A API Academic Manager foi desenvolvida usando Spring Boot, Hibernate e banco de
 
 1. **Clone o repositório**:
    ```sh
-   git clone <url-do-repositorio>
+   git clone https://github.com/RafaellSouzza/AcademicManager
    cd AcademicManager
